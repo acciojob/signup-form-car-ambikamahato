@@ -9,6 +9,46 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		<form method="post">
+        <label for="name">Name*</label>
+        <input type="type" id="name" placeholder="Name" required>
+        <br>
+        <label for="email">Email*</label>
+        <input type="email" id="email" placeholder="Email" required >
+        <br>
+        <label for="gender">Gender*</label>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="others">others</label>
+        <input type="radio" id="others" name="gender">
+        <br>
+        <label for="cars">Car Brands*</label>
+        <select id="cars" required>
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Mercedez</option>
+        </select>
+        <br>
+        <label for="age">Age*</label>
+        <input type="type" id="age" required>
+        <br>
+        <label for="dob">DOB*</label>
+        <input type="date" id="dob" required>
+        <br>
+        <label for="number">Phone Number</label>
+        <input type="number" id="tel" required>
+        <br>
+        <label for="password">Password*</label>
+        <input type="password" id="password" required>
+        <br>
+        <label for="tos">Checkbox*</label>
+        <input type="checkbox" id="tos" required>
+        <br>
+        <button>submit button</button>
+    </form>
+		
 </script>
 
 </body>
